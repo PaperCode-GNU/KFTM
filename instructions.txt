@@ -1,0 +1,10 @@
+This software is designed for paper “A Legal Judgment Prediction Model Based on Knowledge Fusion and dependency Masking”
+
+1. The pre-trained LERT model used in the software can be downloaded from website: https://github.com/ymcui/LERT
+2. The dataset CAIL2018 used by the software can be downloaded from website: https://cail.oss-cn-qingdao.aliyuncs.com/CAIL2018_ALL_DATA.zip
+3. data_process folder：contains all the data processing programs
+4. data-loader.py is used for data loading.
+5. GCN.config is the relevant configuration file for the comparative model Topjudge.
+6. model.py is the structure file for our model.
+7. topjudge-parser.py is the file that parses the relevant configuration files of the comparative model Topjudge.
+8. Train.py is the launch file for training, validation, and testing of our model.
